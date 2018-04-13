@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'HelvNeueLightforIBM';
-    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Helvetica%20Neue/HelvNeueLightforIBM.otf') format("opentype");
+    src: url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Helvetica%20Neue/HelvNeueLightforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -90,31 +90,31 @@
 }
 @font-face {
     font-family: 'LubalinBookforIBM';
-    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.otf') format("opentype"),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.eot') format('embedded-opentype'),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.ttf') format('truetype'),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.otf') format("opentype"),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.eot') format('embedded-opentype'),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.ttf') format('truetype'),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinBookforIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinBookItalicforIBM';
-    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookItalicforIBM.otf') format("opentype");
+    src: url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinBookItalicforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: 'LubalinDemiforIBM';
-    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.otf') format("opentype"),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.eot') format('embedded-opentype'),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.ttf') format('truetype'),
-          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.woff') format('woff');
+    src: url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.otf') format("opentype"),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.eot') format('embedded-opentype'),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.ttf') format('truetype'),
+          url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinDemiforIBM.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'LubalinDemiItalicforIBM';
-    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiItalicforIBM.otf') format("opentype");
+    src: url('https://raw.githubusercontent.com/Roehse/watson-tv/master/fonts/Lubalin/LubalinDemiItalicforIBM.otf') format("opentype");
     font-weight: normal;
     font-style: italic;
 }
