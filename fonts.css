@@ -1,0 +1,120 @@
+/**
+ * Copyright 2015 IBM Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ **/
+
+/* @font-face ============== */
+
+@font-face {
+    font-family: 'HelvNeueLightforIBM';
+    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Helvetica%20Neue/HelvNeueLightforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelvNeueLightItalicforIBMRegular';
+    src: url('fonts/Helvetica Neue/helvneuelightitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuelightitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuelightitalicforibm.svg#HelvNeueLightItalicforIBMRegular') format('svg');
+}
+@font-face {
+    font-family: 'HelvNeueLightCondforIBM';
+    src: url('fonts/Helvetica Neue/HelvNeueLightCondforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelvNeueRomanforIBM';
+    src: url('fonts/Helvetica Neue/HelvNeueRomanforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelvNeueRomanItalicforIBMRegular';
+    src: url('fonts/Helvetica Neue/helvneueromanitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneueromanitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneueromanitalicforibm.svg#HelvNeueRomanItalicforIBMRegular') format('svg');
+}
+@font-face {
+    font-family: 'HelvNeueMediumforIBM';
+    src: url('fonts/Helvetica Neue/HelvNeueMediumforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelvNeueMediumItalicforIBMRegular';
+    src: url('fonts/Helvetica Neue/helvneuemediumitalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuemediumitalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuemediumitalicforibm.svg#HelvNeueMediumItalicforIBMRegular') format('svg');
+}
+@font-face {
+    font-family: 'HelvNeueBoldforIBM';
+    src: url('fonts/Helvetica Neue/HelvNeueBoldforIBM.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+ @font-face {
+    font-family: 'HelvNeueBoldItalicforIBMRegular';
+    src: url('fonts/Helvetica Neue/helvneuebolditalicforibm.eot');
+    src: url('fonts/Helvetica Neue/helvneuebolditalicforibm.eot') format('embedded-opentype'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.woff2') format('woff2'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.woff') format('woff'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.ttf') format('truetype'),
+         url('fonts/Helvetica Neue/helvneuebolditalicforibm.svg#HelvNeueBoldItalicforIBMRegular') format('svg');
+}
+@font-face {
+    font-family: 'HelvNeueCondforIBM';
+    src: url('fonts/Helvetica Neue/HelvNeueCondforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LubalinBookforIBM';
+    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.otf') format("opentype"),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.eot') format('embedded-opentype'),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.ttf') format('truetype'),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookforIBM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LubalinBookItalicforIBM';
+    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinBookItalicforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'LubalinDemiforIBM';
+    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.otf') format("opentype"),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.eot') format('embedded-opentype'),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.ttf') format('truetype'),
+          url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiforIBM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LubalinDemiItalicforIBM';
+    src: url('https://github.ibm.com/joerg-roehse/WatsonTV/blob/master/fonts/Lubalin/LubalinDemiItalicforIBM.otf') format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}

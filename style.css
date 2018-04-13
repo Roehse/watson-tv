@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  background: #111;
+  color: #eee;
+}
+
+body {
+  margin: 0;
+  font-family: 'HelvNeueLightforIBM', Sans-Serif;
+}
+
+.tv-container {
+  padding: 20px;
+  height: 100%;
+}
+
+.tv-header {
+  color: white;
+  height: 120px;
+}
+
+.tv-header .btn {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background: #222;
+}
+
+.tv-header .btn:hover, .tv-header .btn:focus {
+  color: #ccc;
+  background: #333;
+  outline: none;
+}
+
+.tv-header .tv-disabled-btn {
+  color: #666;
+}
+
+.tv-header .tv-container {
+  display: flex;
+  align-items: center;
+}
+
+.tv-header h1 {
+  display: inline-block;
+  margin: 15px 10px 0 0;
+  font-size: 60px;
+  font-family: 'LubalinDemiforIBM', Sans-Serif;
+}
+
+.tv-header .fa {
+  margin-left: 12px;
+}
+
+.tv-tv {
+  background: #222;
+  height: 580px;
+}
+
+#tv-video {
+  height: 500px;
+  width: 100%;
+}
+
+.tv-translation {
+  height: calc(100% - 710px);
+}
+
+#tv-translation-text {
+  height: 100%;
+  padding: 30px 100px;
+  overflow-y: hidden;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.tv-url {
+  margin-bottom: 10px;
+}
+
+.tv-url .input-group {
+  width: calc(100% - 57px);
+  float: left;
+  border-radius: 0;
+}
+
+.tv-url .input-group input, .tv-url .input-group-addon, .btn {
+  border-radius: 0;
+  border-color: #666;
+  background: none;
+  color: #eee;
+}
+
+.tv-url .btn {
+  border-left: 0;
+}
+
+.tv-input {
+}
